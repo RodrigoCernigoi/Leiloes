@@ -12,8 +12,12 @@ public class cadastroVIEW extends javax.swing.JFrame {
     /**
      * Creates new form cadastroVIEW
      */
+    
+    conectaDAO con = new conectaDAO();
+    
     public cadastroVIEW() {
         initComponents();
+        con.connectDB();
     }
 
     /**
